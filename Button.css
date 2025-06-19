@@ -1,1 +1,86 @@
-CSS code  for button 
+#wrapper{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.container{
+      width: 100vw;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.btn{
+    height: 40px;
+    width: 200px;
+}
+.box-1{
+    height: 180px;
+    width: 380px;
+    background-color:  #FF6766;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-2{
+    height: 180px;
+    width: 380px;
+    background-color:  #dc6f6f;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.box-3{
+    height: 180px;
+    width: 380px;
+   
+    display: grid;
+    justify-content: center;
+    align-items: center;
+     background-color:  #87e8b5;
+}
+
+.btn-two{
+    height: 50px;
+    width: 220px;
+    opacity: 0.5;
+    display: grid;
+    color: white;
+    font-size: large;
+    font-weight: 300;
+    text-align: center;
+    align-content: center;
+    border: 1px solid rgb(237, 227, 227);
+     background-color:  #695b5b;
+}
+.btn-three{
+    height: 50px;
+    width: 220px;
+    opacity: 0.5;
+    display: grid;
+    color: white;
+    font-size: large;
+    font-weight: 300;
+    text-align: center;
+    align-content: center;
+    border: 1px solid rgb(237, 227, 227);
+    background-color: #66A182;
+}
+.btn-one{
+    height: 50px;
+    width: 220px;
+    opacity: 0.5;
+    display: grid;
+    color: white;
+    font-size: large;
+    font-weight: 300;
+    text-align: center;
+    align-content: center;
+    border: 1px solid rgb(237, 227, 227);
+    background-color: rgb(215, 98, 98);
+    transition: all 1s ease 1.2s;
+}
+.btn-one:hover{
+    background-color: #FF6766;
+}
